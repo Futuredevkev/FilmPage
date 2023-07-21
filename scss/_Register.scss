@@ -1,0 +1,71 @@
+/* Register */
+  
+.register {
+    background-color: rgba(0, 0, 0, 0.817);
+    border-radius: 4px;
+    width: 600px;
+    height: 700px;
+   @include flexDesktop-Cel(column);
+    gap: 40px;
+
+    .inputs__registrar {
+      @include gridsDesktop-cel($columns: repeat(2, 1fr));
+      grid-gap: 20px;
+
+      input {
+        width: 250px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #333333;
+        color: #868c8c;
+        text-align: start;
+
+      }
+
+    }
+
+    h3 {
+      font-size: 40px;
+      color: #fff;
+    }
+
+    button {
+      @extend .boton;
+    }
+
+    .checkbox-terminos {
+     @include flexDesktop-Cel($column: row);
+      gap: 20px;
+
+      input {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        color: #fff;
+        font-size: 15px;
+      }
+    }
+
+  }
+  
+  
+  @media (max-width: 884px) {
+    .inputs__registrar {
+        display: flex !important;
+        flex-direction: column;
+
+        .register {
+          width: 100% !important;
+          height: 100% !important;
+        }
+      
+         h2 {
+          font-size: 30px !important;
+        }
+      }
+  }

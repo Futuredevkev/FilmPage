@@ -1,0 +1,21 @@
+@mixin flexDesktop-Cel($column) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $column;
+}
+
+
+
+@mixin flexDesktopLeft {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+@mixin gridsDesktop-cel($columns) {
+    display: grid;
+    grid-template-columns: $columns;
+}
+

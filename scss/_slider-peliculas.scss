@@ -1,0 +1,95 @@
+/* Slider de elegir peliculas principal, con flechas, etc, tambien con detalles de pelicula al hover */
+  
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    overflow: hidden;
+
+    .slider-container {
+      padding-bottom: 20px;
+      width: 100%;
+    }
+
+    .section-title {
+      font-size: 23px;
+      margin: 30px;
+      color: #fff;
+    }
+
+    .section {
+      position: relative;
+    }
+    
+    .movie-grid {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 20px;
+      padding-left: 20px;
+      transform: translateX(0);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+
+    .movie-card {
+      flex: 0 0 auto;
+     @include flexDesktop-Cel($column: column);
+      position: relative;
+
+      img {
+      max-width: 300px;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+      }
+
+      h3 {
+        margin-top: 10px;
+      }
+    }
+
+       i  {
+        font-size: 25px;
+        color: #ff0000;
+        font-weight: bold;
+      }
+
+      .arrow-right {
+        position: absolute;
+        right: 10px;
+        top: 60%;
+        z-index: 4300;
+      }
+      
+      .arrow-left {
+        position: absolute;
+        left: 30px;
+        top: 60%;
+        z-index: 4300;
+      }
+      
+  }
+
+  
+  @media (max-width: 884px) {
+    .movie-details h3 {
+        font-size: 15px;
+      }
+      }
+ 
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+ 
+
+ 

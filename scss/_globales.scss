@@ -1,0 +1,19 @@
+$fuenteprincipal: 'Agdasima', sans-serif;
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1, h2 {
+    font-family: $fuenteprincipal;
+  }
+  
+  i {
+    color: #fff;
+  }

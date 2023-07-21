@@ -1,0 +1,16 @@
+.pelicula-film {
+    @include flexDesktop-Cel($column: row);
+    margin: 57px 0;
+
+    video {
+        width: 100%;
+    }
+}
+
+@media(max-width: 596px) {
+    .pelicula-film {
+        video {
+            height: 500px;
+        }
+    }
+}

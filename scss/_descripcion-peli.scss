@@ -1,0 +1,90 @@
+.descripcion-peli {
+    width: 100%;
+    @include flexDesktop-Cel($column: row);
+    margin:60px 15px;
+    gap: 20px;
+    padding: 20px;
+
+ .imagen-peli {
+    @include flexDesktop-Cel($column: row);
+
+    img {
+        width: 250px;
+    }
+ }   
+
+ .descripcion-contenido {
+    @include flexDesktop-Cel($column: column);
+    align-items: start;
+    gap: 10px;
+
+    h2 {
+        font-size: 50px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    span {
+        color: #50475B;
+    }
+
+    p i{
+        font-size: 25px;
+
+        &:hover {
+            color: rgb(246, 246, 9);
+        }
+    }
+
+    p {
+        font-size: 15px;
+        color: #fff;
+        width: 90%;
+    }
+ }
+ 
+
+ .compartir {
+    @include flexDesktop-Cel($column: column);
+    gap: 5px;
+
+    h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .iconos-compartir {
+        @include flexDesktop-Cel($column: row);
+        gap: 20px;
+
+        i {
+            font-size: 20px;
+            cursor: pointer;
+
+            &:hover {
+                color: #ffffff94;
+            }
+        }
+    }
+    
+ }
+
+}
+
+
+
+@media (max-width: 768px) {
+   .descripcion-peli {
+       flex-direction: column;
+
+       .descripcion-contenido{
+       align-items: center;
+       text-align: center;
+      }
+      
+    }
+
+
+
+}

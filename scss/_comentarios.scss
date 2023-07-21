@@ -1,0 +1,100 @@
+.comentarios {
+    @include flexDesktop-Cel($column: column);
+    align-items: start;
+    margin: 150px 20px;
+    gap: 30px;
+    
+    h2 {
+        color: #fff;
+        
+    }
+
+
+    .perfiles {
+        @include flexDesktop-Cel($column: column);
+        gap: 40px;
+        align-items: start;
+        
+
+
+        .perfil {
+            @include flexDesktop-Cel($column: row);
+            gap: 30px;
+        
+
+            p {
+                font-size: 13px;
+                color: #fff;
+            }
+
+            img {
+                width: 60px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .comentar {
+        @include flexDesktop-Cel($column: column);
+        width: 100%;
+        gap: 40px;
+        margin: 70px 0;
+
+        .enviar {
+
+            @include flexDesktop-Cel($column: row);
+            gap: 30px;
+
+          
+
+            input {
+                border: 1px solid white;
+                border-radius: 3px;
+                background: transparent;
+                width: 250px;
+                height: 35px;
+                padding: 10px;
+                color: #fff;
+    
+            }
+    
+            button {
+                border: none;
+                outline: none;
+                border-radius: 3px;
+                padding: 5px;
+                width: 150px;
+                background: #fff;
+                color: #000; 
+    
+               
+            }
+    
+        }
+
+        h2 {
+            font-size: 35px;
+            border-left: 2px solid red;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+.comentarios {
+    .perfil {
+        align-items: start !important;
+    }
+
+    .enviar {
+           flex-direction: column !important;
+   
+       }
+       .perfil p {
+               font-size: 10px !important;
+           }
+}
+}
