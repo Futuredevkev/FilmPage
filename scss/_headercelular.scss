@@ -36,15 +36,12 @@
   
 
     .navegacion_celu {
-      position: absolute;
       width: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
-      top: 57%;
-      left: 52%;
-      transform: translate(-50%, -50%);
+      
 
       a {
         text-decoration: none;
@@ -55,12 +52,10 @@
     }
 
     .Buscador__perfil_celu {
-      position: absolute;
       width: 100%;
        @include flexDesktop-Cel($column: row);
-      top: 25%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    
+    
 
       input {
         width: 200px;
@@ -76,12 +71,8 @@
     }
 
     .logo__navegacion_celu {
-      position: absolute;
       width: 100%;
       @include flexDesktop-Cel($column: row);
-      top: 15%;
-      left: 52%;
-      transform: translate(-50%, -50%);
       text-shadow: 4px 3px 0px #7a7a7a;
       text-transform: uppercase;
       color: rgba(201, 42, 42, 0.766);

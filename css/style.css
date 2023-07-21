@@ -213,15 +213,11 @@ i {
     transition: all 0.3s;
   }
   .navegacion_celu {
-    position: absolute;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    top: 57%;
-    left: 52%;
-    transform: translate(-50%, -50%);
   }
   .navegacion_celu a {
     text-decoration: none;
@@ -230,15 +226,11 @@ i {
     margin-top: 50px;
   }
   .Buscador__perfil_celu {
-    position: absolute;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
   .Buscador__perfil_celu input {
     width: 200px;
@@ -251,15 +243,11 @@ i {
     margin-right: 10px;
   }
   .logo__navegacion_celu {
-    position: absolute;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    top: 15%;
-    left: 52%;
-    transform: translate(-50%, -50%);
     text-shadow: 4px 3px 0px #7a7a7a;
     text-transform: uppercase;
     color: rgba(201, 42, 42, 0.766);
