@@ -231,6 +231,7 @@ i {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: 30px 0;
   }
   .Buscador__perfil_celu input {
     width: 200px;
@@ -251,6 +252,7 @@ i {
     text-shadow: 4px 3px 0px #7a7a7a;
     text-transform: uppercase;
     color: rgba(201, 42, 42, 0.766);
+    margin: 30px 0;
   }
   .logo__navegacion_celu .netflix__logo {
     font-size: 35px;
