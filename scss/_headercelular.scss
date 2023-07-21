@@ -54,6 +54,7 @@
     .Buscador__perfil_celu {
       width: 100%;
        @include flexDesktop-Cel($column: row);
+       margin: 30px 0;
     
     
 
@@ -76,6 +77,7 @@
       text-shadow: 4px 3px 0px #7a7a7a;
       text-transform: uppercase;
       color: rgba(201, 42, 42, 0.766);
+      margin: 30px 0;
       
       .netflix__logo {
         font-size: 35px;
