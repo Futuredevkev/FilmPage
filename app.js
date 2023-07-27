@@ -26,36 +26,50 @@ iconoMenu.addEventListener('click', () => {
 // Generacion dinamica de cards por javascript
 
 const peliculasTerror = [
+
     { imagen: '/Portadas/1.jpg', 
      },
+
     { imagen: '/Portadas/2.jpg', 
   },
+
     {  imagen: '/Portadas/3.jpeg',
    },
+
     {  imagen: '/Portadas/4.jpg',
   },
+
    {  imagen: '/Portadas/5.jpeg'
   },
+
   {  imagen: '/Portadas/6.jpg'
   },
+
   {  imagen: '/Portadas/7.jpg ' 
   }
 
   ];
   
   const peliculasAccion = [
+
     { imagen: '/Portadas/8.jpg', 
   },
+
  { imagen: '/Portadas/9.jpg', 
 },
+
  {  imagen: '/Portadas/10.jpg',
 },
+
  {  imagen: '/Portadas/11.jpg',
 },
+
 {  imagen: '/Portadas/12.webp'
 },
+
 {  imagen: '/Portadas/13.webp'
 },
+
 {  imagen: '/Portadas/14.jpg ' 
 }
 
@@ -64,16 +78,22 @@ const peliculasTerror = [
   const peliculasComedia = [
     { imagen: '/Portadas/15.jpg', 
   },
+
  { imagen: '/Portadas/16.webp', 
 },
+
  {  imagen: '/Portadas/17.jpg',
 },
+
  {  imagen: '/Portadas/18.webp',
 },
+
 {  imagen: '/Portadas/19.jpg'
 },
+
 {  imagen: '/Portadas/20.jpg'
 },
+
 {  imagen: '/Portadas/21.jpg ' 
 }
 
@@ -84,16 +104,22 @@ const peliculasTerror = [
 
     { imagen: '/Portadas/22.jpg', 
   },
+
  { imagen: '/Portadas/23.jpg', 
 },
+
  {  imagen: '/Portadas/24.jpg',
 },
+
  {  imagen: '/Portadas/25.jpg',
 },
+
 {  imagen: '/Portadas/26.jpg'
 },
+
 {  imagen: '/Portadas/27.jpg'
 },
+
 {  imagen: '/Portadas/28.jpg ' 
 }
 
